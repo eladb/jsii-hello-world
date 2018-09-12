@@ -7,7 +7,7 @@
   "scripts": {
     "build": "jsii",
     "watch": "jsii -w",
-    "package": "jsii-pacmak",
+    "package": "jsii-pacmak && echo 1.1.1 > dist/sphinx/.version",
     "pipeline-update": "cdk -a 'node pipeline.cdk.js' deploy",
     "pipeline-diff": "cdk -a 'node pipeline.cdk.js' diff"
   },
@@ -42,6 +42,7 @@
     "@aws-cdk/cdk": "^0.9.0",
     "@types/node": "^10.9.4",
     "jsii": "0.7.1",
-    "jsii-pacmak": "0.7.1"
+    "jsii-pacmak": "0.7.1",
+    "rst2html": "^1.0.4"
   }
 }

@@ -13,10 +13,6 @@ class JsiiSample extends cdk.Stack {
       tokenParameterName: 'eladb-github-token'
     });
 
-    // const repo = new buildable.CodeCommitRepo(codecommit.RepositoryRef.import(this, 'Repository', {
-    //   repositoryName: new codecommit.RepositoryName('jsii-sample')
-    // }));
-
     const pipeline = new buildable.Pipeline(this, 'Pipeline', {
       repo,
       buildEnvironment: {
@@ -30,13 +26,10 @@ class JsiiSample extends cdk.Stack {
       email: 'elad.benisrael@gmail.com'
     });
 
-    pipeline.publishToNpm({ npmTokenSecret: config.npm.token });
-    pipeline.publishToNuGet({ nugetApiKeySecret: config.nuget.apiKey });
-    pipeline.publishToMaven({
-      mavenLoginSecret: config.maven.login,
-      stagingProfileId: config.maven.stagingProfileId,
-      signingKey,
-    });
+    pipeline.publishToNpm({ ...config.npm });
+    pipeline.publishToNuGet({ ...config.nuget });
+    pipeline.publishToMaven({ ...config.maven, signingKey });
+    pipeline.publishToGitHubPages({ ...config.docs, githubRepo: repo });
   }
 }
 
