@@ -7,7 +7,7 @@
   "scripts": {
     "build": "jsii",
     "watch": "jsii -w",
-    "package": "jsii-pacmak && echo 1.1.1 > dist/sphinx/.version",
+    "package": "jsii-pacmak && ./make-docs.sh",
     "pipeline-update": "cdk -a 'node pipeline.cdk.js' deploy",
     "pipeline-diff": "cdk -a 'node pipeline.cdk.js' diff"
   },
