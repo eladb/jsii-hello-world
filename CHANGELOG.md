@@ -1,18 +1,6 @@
-[@rix0rrr]:         https://github.com/rix0rrr
-[@sam-goodwin]:     https://github.com/sam-goodwin
-[@RomainMuller]:    https://github.com/RomainMuller
-[@eladb]:           https://github.com/eladb
-[@skinny85]:        https://github.com/skinny85
-[@moofish32]:       https://github.com/moofish32
-[@mpiroc]:          https://github.com/mpiroc
-[@Doug-AWS]:        https://github.com/Doug-AWS
-[@mindstorms6]:     https://github.com/mindstorms6
-[@Mortifera]:       https://github.com/Mortifera
-[@maciejwalkowiak]: https://github.com/maciejwalkowiak
-[@cookejames]:      https://github.com/cookejames
-[@rhboyd]:          https://github.com/rhboyd
-[@SeekerWing]:      https://github.com/SeekerWing
-[@jungseoklee]:     https://github.com/jungseoklee
+## 1.1.2 -- 2018-09-13
+
+Testing release
 
 ## 0.9.0 -- 2018-09-10
 
@@ -1363,3 +1351,20 @@ Warning: this is a warning (at /Stack/Construct)
  * The toolkit now reads `cx.json` for default arguments. Very useful, for
    example, to remove the need to specify `--app` in every invocation.
 
+
+
+[@rix0rrr]:         https://github.com/rix0rrr
+[@sam-goodwin]:     https://github.com/sam-goodwin
+[@RomainMuller]:    https://github.com/RomainMuller
+[@eladb]:           https://github.com/eladb
+[@skinny85]:        https://github.com/skinny85
+[@moofish32]:       https://github.com/moofish32
+[@mpiroc]:          https://github.com/mpiroc
+[@Doug-AWS]:        https://github.com/Doug-AWS
+[@mindstorms6]:     https://github.com/mindstorms6
+[@Mortifera]:       https://github.com/Mortifera
+[@maciejwalkowiak]: https://github.com/maciejwalkowiak
+[@cookejames]:      https://github.com/cookejames
+[@rhboyd]:          https://github.com/rhboyd
+[@SeekerWing]:      https://github.com/SeekerWing
+[@jungseoklee]:     https://github.com/jungseoklee
