@@ -1,3 +1,10 @@
+# jsii-example
+
+## 1.1.3 -- 2018-09-13
+
+Hello, this is another _testing release_.
+
+
 ## 1.1.2 -- 2018-09-13
 
 Testing release
