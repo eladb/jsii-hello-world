@@ -30,6 +30,7 @@ class JsiiSample extends cdk.Stack {
     pipeline.publishToNuGet({ ...config.nuget });
     pipeline.publishToMaven({ ...config.maven, signingKey });
     pipeline.publishToGitHubPages({ ...config.docs, githubRepo: repo });
+    pipeline.publishToGitHub({ githubRepo: repo, signingKey });
   }
 }
 

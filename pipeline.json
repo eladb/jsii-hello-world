@@ -1,26 +1,26 @@
 {
   "npm": {
     "npmTokenSecret": {
-      "secretArn": "arn:aws:secretsmanager:us-east-1:585695036304:secret:benisrae-npm-publish-G8Zcuy",
+      "secretId": "arn:aws:secretsmanager:us-east-1:585695036304:secret:benisrae-npm-publish-G8Zcuy",
       "keyArn": "arn:aws:kms:us-east-1:585695036304:key/37b53cc4-e5aa-448f-8eee-b4bcedaba120"
     }
   },
   "nuget": {
     "nugetApiKeySecret": {
-      "secretArn": "arn:aws:secretsmanager:us-east-1:585695036304:secret:benisrae-nuget-publish-PbXG8J",
+      "secretId": "arn:aws:secretsmanager:us-east-1:585695036304:secret:benisrae-nuget-publish-PbXG8J",
       "keyArn": "arn:aws:kms:us-east-1:585695036304:key/0dc7ab85-2ad3-4e85-b3aa-9108e508f89f"
     }
   },
   "maven": {
     "stagingProfileId": "68a05363083174",
     "mavenLoginSecret": {
-      "secretArn": "arn:aws:secretsmanager:us-east-1:585695036304:secret:benisrae-maven-publish-QPxBVG",
+      "secretId": "arn:aws:secretsmanager:us-east-1:585695036304:secret:benisrae-maven-publish-QPxBVG",
       "keyArn": "arn:aws:kms:us-east-1:585695036304:key/0dc7ab85-2ad3-4e85-b3aa-9108e508f89f"
     }
   },
   "docs": {
     "sshKeySecret": {
-      "secretArn": "arn:aws:secretsmanager:us-east-1:585695036304:secret:benisrae-docs-publish-sdmEib",
+      "secretId": "arn:aws:secretsmanager:us-east-1:585695036304:secret:benisrae-docs-publish-sdmEib",
       "keyArn": "arn:aws:kms:us-east-1:585695036304:key/0dc7ab85-2ad3-4e85-b3aa-9108e508f89f"
     },
     "commitEmail": "elad.benisrael@gmail.com",
